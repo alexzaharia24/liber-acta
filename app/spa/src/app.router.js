@@ -10,4 +10,8 @@ angular.module("LiberActa")
                 url: '/cover',
                 template: '<cover></cover>'
             })
+            .state('home', {
+                url: '/home',
+                template: '<home></home>'
+            })
     });

@@ -1,0 +1,36 @@
+{
+  "name": "liber-acta",
+  "description": "Personal Book Journal",
+  "main": "index.js",
+  "authors": [
+    "Alex Zaharia"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "liber",
+    "acta",
+    "book",
+    "journal",
+    "read"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "^4.15.0",
+    "angular": "^1.5.8",
+    "bootstrap": "3.3.4",
+    "angular-ui-router": "^0.3.1",
+    "angular-bootstrap": "^2.0.1",
+    "angular-ui-select": "^0.19.1"
+  },
+  "resolutions": {
+    "bootstrap": "3.3.4"
+  }
+}

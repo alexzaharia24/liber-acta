@@ -1,0 +1,16 @@
+{
+	"array": [
+		{
+			"id":1,
+			"name": "object_1"
+		},
+		{
+			"id":2,
+			"name": "object_2"
+		},
+		{
+			"id":3,
+			"name": "object_3"
+		}
+	]
+}

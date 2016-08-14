@@ -1,0 +1,106 @@
+@mixin transition($value) {
+  -webkit-transition: $value;
+  -moz-transition: $value;
+  -o-transition: $value;
+  transition: $value;
+}
+
+$primary-color: #9A031E;
+
+.cover {
+  background: url('../../../assets/images/book_2.jpg');
+  background-position: center;
+  background-size: cover;
+  font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+  height: 100vh;
+
+  .overlay {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    .row {
+      margin: 0;
+
+      .content {
+        margin-top: 14%;
+
+        .title {
+          color: #fff;
+          text-align: center;
+
+          h1 {
+            font-size: 20px;
+          }
+        }
+
+        .icon-zone {
+          color: #9A031E;
+          font-size: 60px;
+          text-align: center;
+        }
+
+        .message {
+          float: none;
+          margin: 0 auto;
+          text-align: center;
+          text-transform: uppercase;
+
+          h1 {
+            color: #fff;
+            font-size: 70px;
+          }
+        }
+
+        .button-zone {
+          color: #fff;
+          font-size: 20px;
+          margin-top: 10px;
+          text-align: center;
+
+          a.enter-button {
+            border: 2px solid $primary-color;
+            color: #fff;
+            display: inline-block;
+            height: 50px;
+            @include transition(1s all ease);
+            line-height: 0;
+            padding: 22px 30px 4px 30px;
+            width: 260px;
+
+            p {
+              position: absolute;
+            }
+            p#action-text {
+              @include transition(0.5s all ease);
+              opacity: 1;
+              visibility: visible;
+            }
+            p#hover-text {
+              @include transition(0.5s all ease);
+              margin-left: 50px;
+              opacity: 0;
+              visibility: hidden;
+            }
+          }
+
+          a.enter-button:hover,
+          a.enter-button:active,
+          a.enter-button:focus {
+            background: $primary-color;
+            color: #fff;
+            text-decoration: none;
+
+            p#action-text {
+              opacity: 0;
+              visibility: hidden;
+            }
+
+            p#hover-text {
+              opacity: 1;
+              visibility: visible;
+            }
+          }
+        }
+      }
+    }
+  }
+}

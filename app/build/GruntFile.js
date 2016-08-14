@@ -24,9 +24,17 @@ module.exports = function(grunt) {
 	    },
 	    styles: {
 	      	files: {
-	      		'../index.html':['../spa/assets/**/*.css']
+	      		'../index.html':[
+	      			'../spa/assets/**/*.css',
+	      			'../spa/src/components/**/*.css'
+	      		]
 	      	}
-	    }		
+	    },
+	    scripts: {
+	    	files: {
+	    		'../index.html':['../spa/src/components/**/*.js']
+	    	}
+	    }	
 	}
   });
 

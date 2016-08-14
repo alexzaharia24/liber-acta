@@ -1,0 +1,82 @@
+.cover {
+  background: url("../../../assets/images/book_2.jpg");
+  background-position: center;
+  background-size: cover;
+  font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
+  height: 100vh; }
+  .cover .overlay {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%; }
+    .cover .overlay .row {
+      margin: 0; }
+      .cover .overlay .row .content {
+        margin-top: 14%; }
+        .cover .overlay .row .content .title {
+          color: #fff;
+          text-align: center; }
+          .cover .overlay .row .content .title h1 {
+            font-size: 20px; }
+        .cover .overlay .row .content .icon-zone {
+          color: #9A031E;
+          font-size: 60px;
+          text-align: center; }
+        .cover .overlay .row .content .message {
+          float: none;
+          margin: 0 auto;
+          text-align: center;
+          text-transform: uppercase; }
+          .cover .overlay .row .content .message h1 {
+            color: #fff;
+            font-size: 70px; }
+        .cover .overlay .row .content .button-zone {
+          color: #fff;
+          font-size: 20px;
+          margin-top: 10px;
+          text-align: center; }
+          .cover .overlay .row .content .button-zone a.enter-button {
+            border: 2px solid #9A031E;
+            color: #fff;
+            display: inline-block;
+            height: 50px;
+            -webkit-transition: 1s all ease;
+            -moz-transition: 1s all ease;
+            -o-transition: 1s all ease;
+            transition: 1s all ease;
+            line-height: 0;
+            padding: 22px 30px 4px 30px;
+            width: 260px; }
+            .cover .overlay .row .content .button-zone a.enter-button p {
+              position: absolute; }
+            .cover .overlay .row .content .button-zone a.enter-button p#action-text {
+              -webkit-transition: 0.5s all ease;
+              -moz-transition: 0.5s all ease;
+              -o-transition: 0.5s all ease;
+              transition: 0.5s all ease;
+              opacity: 1;
+              visibility: visible; }
+            .cover .overlay .row .content .button-zone a.enter-button p#hover-text {
+              -webkit-transition: 0.5s all ease;
+              -moz-transition: 0.5s all ease;
+              -o-transition: 0.5s all ease;
+              transition: 0.5s all ease;
+              margin-left: 50px;
+              opacity: 0;
+              visibility: hidden; }
+          .cover .overlay .row .content .button-zone a.enter-button:hover,
+          .cover .overlay .row .content .button-zone a.enter-button:active,
+          .cover .overlay .row .content .button-zone a.enter-button:focus {
+            background: #9A031E;
+            color: #fff;
+            text-decoration: none; }
+            .cover .overlay .row .content .button-zone a.enter-button:hover p#action-text,
+            .cover .overlay .row .content .button-zone a.enter-button:active p#action-text,
+            .cover .overlay .row .content .button-zone a.enter-button:focus p#action-text {
+              opacity: 0;
+              visibility: hidden; }
+            .cover .overlay .row .content .button-zone a.enter-button:hover p#hover-text,
+            .cover .overlay .row .content .button-zone a.enter-button:active p#hover-text,
+            .cover .overlay .row .content .button-zone a.enter-button:focus p#hover-text {
+              opacity: 1;
+              visibility: visible; }
+
+/*# sourceMappingURL=cover.css.map */

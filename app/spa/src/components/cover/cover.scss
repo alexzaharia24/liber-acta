@@ -70,12 +70,13 @@ $primary-color: #9A031E;
             }
             p#action-text {
               @include transition(0.5s all ease);
+              margin-left: 4px;
               opacity: 1;
               visibility: visible;
             }
             p#hover-text {
               @include transition(0.5s all ease);
-              margin-left: 50px;
+              margin-left: 56px;
               opacity: 0;
               visibility: hidden;
             }

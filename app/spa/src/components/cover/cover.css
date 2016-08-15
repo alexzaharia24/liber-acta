@@ -51,6 +51,7 @@
               -moz-transition: 0.5s all ease;
               -o-transition: 0.5s all ease;
               transition: 0.5s all ease;
+              margin-left: 4px;
               opacity: 1;
               visibility: visible; }
             .cover .overlay .row .content .button-zone a.enter-button p#hover-text {
@@ -58,7 +59,7 @@
               -moz-transition: 0.5s all ease;
               -o-transition: 0.5s all ease;
               transition: 0.5s all ease;
-              margin-left: 50px;
+              margin-left: 56px;
               opacity: 0;
               visibility: hidden; }
           .cover .overlay .row .content .button-zone a.enter-button:hover,
